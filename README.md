@@ -22,6 +22,47 @@ There is some starter code available in `src/components/App.js`. There is also
 some data in `data/blog.js` that is being imported into `App` so you can pass it
 down to the components that need it.
 
+## Getting Started
+
+To run this project locally:
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+3. **Run tests:**
+   ```bash
+   npm test
+   ```
+   This will run all the test suites to verify the components are working correctly.
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## Screenshots
+
+Here are some screenshots of the blog site:
+
+- **Full Blog View:**
+  ![Full Blog](https://via.placeholder.com/800x600?text=Full+Blog+Screenshot)
+
+- **About Section:**
+  ![About Section](https://via.placeholder.com/400x300?text=About+Section)
+
+- **Article List:**
+  ![Article List](https://via.placeholder.com/400x300?text=Article+List)
+
+*Note: Replace these placeholder images with actual screenshots of your running application.*
+
 ## Deliverables
 
 Have a look at the components below and draw out a component hierarchy so you

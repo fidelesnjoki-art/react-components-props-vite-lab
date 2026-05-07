@@ -1,13 +1,20 @@
 import React from "react";
 import blogData from "../data/blog";
+import Header from "./Header";
+import About from "./About";
+import ArticleList from "./ArticleList";
 
-console.log(blogData);
-
+// Main App component that renders the entire blog site
+// It imports blog data and passes it down as props to child components
 function App() {
   return (
     <div className="App">
-      You're on your own from here! Follow the deliverables; test things out in
-      the browser as you write your code; and good luck!
+      {/* Render the header with the blog name */}
+      <Header name={blogData.name} />
+      {/* Render the about section with image and description */}
+      <About image={blogData.image} about={blogData.about} />
+      {/* Render the list of articles */}
+      <ArticleList posts={blogData.posts} />
     </div>
   );
 }
